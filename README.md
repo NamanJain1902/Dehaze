@@ -1,7 +1,5 @@
-# <div align="center"> Satellite Image Cloud Removal :satellite:</div>
+# <div align="center"> :satellite: Satellite Image Cloud Removal :fog:</div>
 
-
-</br>
 
 ## 🎄 Problem Statement: 
 ### To remove cloud from multispectral image captured under poor  weather condition.
@@ -13,7 +11,9 @@
 ![](static/synthetic_image.jpeg)
 
 2. ###  Computation of the cloud thickness in each band by using relationship between different bands.
-![](static/flow_chart.jpeg)
+<p align="center">
+  <img src="https://github.com/NamanJain1902/Dehaze/blob/117df69898ae3ba23ca40a94af775df932cd5cc2/static/flow_chart.jpeg" alt="flow_chart"/>
+</p>
 
 3. ###  Using lightweight CNN network (Unet) to generate non-cloudy image corresponding to given cloudy image.
 ![](static/u-net-architecture.png)
